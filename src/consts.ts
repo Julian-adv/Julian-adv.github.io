@@ -1,5 +1,2 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
-export const SITE_TITLE = 'Astro Blog';
-export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const SITE_TITLE = 'OpenMMO Devlog';
+export const SITE_DESCRIPTION = 'OpenMMO를 만들며 배운 것과 기술적인 고민을 기록합니다.';
