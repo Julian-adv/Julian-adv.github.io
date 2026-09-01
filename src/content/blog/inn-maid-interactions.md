@@ -3,6 +3,8 @@ title: 여관 메이드 기능 추가
 description: 여관 메이드의 음식 주문 접수와 2층 인사 기능을 추가했습니다.
 pubDate: 2026-09-01
 draft: false
+language: ko
+translation: en/inn-maid-interactions
 ---
 
 여관 메이드와 관련된 기능 두 가지를 추가했습니다.

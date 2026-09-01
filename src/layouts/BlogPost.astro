@@ -8,12 +8,31 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const {
+	title,
+	description,
+	pubDate,
+	updatedDate,
+	heroImage,
+	language,
+	translation,
+} = Astro.props;
+const translationLanguage = language === 'ko' ? 'en' : 'ko';
+const translationLabel = language === 'ko' ? '[영문]' : '[한국어]';
 ---
 
-<html lang="ko">
+<html lang={language}>
 	<head>
 		<BaseHead title={title} description={description} image={heroImage} />
+		{
+			translation && (
+				<link
+					rel="alternate"
+					hreflang={translationLanguage}
+					href={new URL(`/blog/${translation}/`, Astro.site)}
+				/>
+			)
+		}
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -42,6 +61,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				text-align: center;
 				line-height: 1;
 			}
+			.language-link {
+				margin-bottom: 1em;
+				text-align: right;
+			}
 			.title h1 {
 				margin: 0 0 0.5em 0;
 			}
@@ -63,6 +86,13 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					{heroImage && <Image width={1020} height={510} src={heroImage} alt={title} />}
 				</div>
 				<div class="prose">
+					{
+						translation && (
+							<div class="language-link">
+								<a href={`/blog/${translation}/`}>{translationLabel}</a>
+							</div>
+						)
+					}
 					<div class="title">
 						<div class="date">
 							<FormattedDate date={pubDate} />
