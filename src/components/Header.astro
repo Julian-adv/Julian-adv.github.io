@@ -1,14 +1,21 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+
+interface Props {
+	language?: 'ko' | 'en';
+}
+
+const { language = 'ko' } = Astro.props;
+const isKorean = language === 'ko';
 ---
 
 <header>
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="links">
-			<HeaderLink href="/">홈</HeaderLink>
-			<HeaderLink href="/blog">글</HeaderLink>
+			<HeaderLink href="/">{isKorean ? '홈' : 'Home'}</HeaderLink>
+			<HeaderLink href={isKorean ? '/blog' : '/blog/en/'}>{isKorean ? '글' : 'Posts'}</HeaderLink>
 			<a href="https://github.com/Julian-adv/OpenMMO" target="_blank" rel="noreferrer">GitHub</a>
 		</div>
 	</nav>
