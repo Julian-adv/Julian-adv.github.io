@@ -26,8 +26,8 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 20px;
-	line-height: 1.7;
+	font-size: 18px;
+	line-height: 1.65;
 }
 main {
 	width: 720px;
@@ -46,19 +46,19 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	font-size: 2.25rem;
 }
 h2 {
-	font-size: 2.441em;
+	font-size: 1.75rem;
 }
 h3 {
-	font-size: 1.953em;
+	font-size: 1.4rem;
 }
 h4 {
-	font-size: 1.563em;
+	font-size: 1.2rem;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: 1rem;
 }
 strong,
 b {
@@ -115,7 +115,7 @@ hr {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	main {
 		padding: 1em;
