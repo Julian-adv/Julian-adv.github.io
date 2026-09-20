@@ -31,7 +31,7 @@ Once you have chosen your furniture, click **Grida** near the store entrance. Th
 
 ![Grida's Shop window opened by clicking Grida near the ORKEA entrance](../../../assets/blog/orkea-furniture-store-checkout.png)
 
-## Adding a Sign to the House on My Estate
+## Let's Place the Furniture We Bought on Our Estate
 
 I also placed a sign on the house on my estate. A wooden sign reading **Jake's House** hangs above the entrance, marking it as my home.
 

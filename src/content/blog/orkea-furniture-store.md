@@ -31,7 +31,7 @@ translation: en/orkea-furniture-store
 
 ![ORKEA 입구 근처의 Grida를 클릭해 열린 Grida's Shop 상점 창](../../assets/blog/orkea-furniture-store-checkout.png)
 
-## 영지의 집에 간판 달기
+## 사온 가구를 영지에 배치해 봅시다
 
 영지에 있는 집에는 간판을 배치했습니다. 입구 위에 **Jake's House**라고 적힌 나무 간판을 달아 내 집임을 알 수 있게 꾸몄습니다.
 
