@@ -2,7 +2,7 @@
 title: 낚시 개선
 description: 아스트라가 만든 새 낚싯대와 낚시 애니메이션, 레벨과 경험치를 없애고 토빈의 낚시를 보며 스킬을 습득하도록 바꾼 내용을 소개합니다.
 pubDate: 2026-09-21
-draft: true
+draft: false
 language: ko
 ---
 
