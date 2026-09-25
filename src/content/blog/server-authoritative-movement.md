@@ -2,7 +2,7 @@
 title: 서버 주도 이동으로 전환
 description: 이동 계산을 서버로 통합하고 클라이언트의 예측과 보정 코드를 제거했습니다. 요청 번호, 이동 갱신 주기, 계단과 가구 처리, 지역별 동기화와 측정 결과를 정리합니다.
 pubDate: 2026-09-25
-draft: true
+draft: false
 language: ko
 ---
 
