@@ -15,7 +15,7 @@ Here is the initial prompt I gave both models, translated from Korean:
 
 > Right now, the character is a single mesh. Could we split it into multiple parts for character customization? For example, assemble a character from parts such as hair (with hairstyle and color choices), eyes (with a choice of eye color), upper-body armor, gloves, pants or a skirt, and shoes or boots. The appearance of the parts should also change depending on the items equipped. You would create the concept art yourself, use meshy.ai to generate the meshes, and use Mixamo for the animations? (Or perhaps get the animations from meshy.ai this time too?) What do you think?
 
-Both models said they could do it and got to work. Astra chose to start with a male character, while Opus 5.5 chose a female character.
+Both models said they could do it and got to work. Each model independently chose which character to start with: Astra selected a male character, while Opus 5.5 selected a female character.
 
 In this attempt, Astra succeeded in building the character, while I stopped the Opus 5.5 attempt before it was complete.
 
