@@ -2,7 +2,7 @@
 title: 여성 캐릭터를 모듈형으로 만들기
 description: 여성 베이스의 얼굴과 동작을 다듬고, 단발 헤어와 기사 장비를 부위별로 제작해 게임에 연결했습니다.
 pubDate: 2026-10-14
-draft: true
+draft: false
 language: ko
 ---
 
