@@ -113,3 +113,5 @@ OpenMMO는 아이소메트릭 뷰라 캐릭터가 이처럼 크게 표시될 일
 이 작업에 사용한 프롬프트와 중간 단계 원화 등 제작 자료는 [OpenMMO GitHub 저장소](https://github.com/Julian-adv/OpenMMO)에서 볼 수 있습니다.
 
 [Tripo 공식 카카오톡 오픈채팅방](https://open.kakao.com/o/p9QNacSi)
+
+[Tripo 공식 네이버 카페](https://cafe.naver.com/tripokorea)
