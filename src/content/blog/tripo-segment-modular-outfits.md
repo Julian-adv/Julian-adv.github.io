@@ -4,6 +4,7 @@ description: 「Tripo Segment로 발키리 장비 만들기」의 심화편으�
 pubDate: 2026-11-05
 draft: false
 language: ko
+translation: en/tripo-segment-modular-outfits
 ---
 
 [지난 글 「Tripo Segment로 발키리 장비 만들기」](/blog/valkyrie-armor-segmentation/)에서는 완성된 발키리 모델을 나누어 손목 보호대와 부츠, 헬멧을 만드는 과정을 소개했습니다. 장비를 하나씩 따로 만들어 몸에 맞추던 방식보다 피팅과 리깅을 수월하게 진행할 수 있었습니다.

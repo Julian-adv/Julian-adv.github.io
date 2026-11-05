@@ -20,3 +20,8 @@ Consult these guides before working on related tasks:
 - [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
 - [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
 - [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+
+## Publishing
+
+- Always publish matching Korean and English versions of each development log, even when an English version is not explicitly requested. Translate the content without adding or omitting material, and reuse the same images and links.
+- When updating a published development log, keep both language versions in sync. Connect them with reciprocal `translation` fields using the existing blog conventions.
