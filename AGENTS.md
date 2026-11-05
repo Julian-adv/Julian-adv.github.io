@@ -25,3 +25,9 @@ Consult these guides before working on related tasks:
 
 - Always publish matching Korean and English versions of each development log, even when an English version is not explicitly requested. Translate the content without adding or omitting material, and reuse the same images and links.
 - When updating a published development log, keep both language versions in sync. Connect them with reciprocal `translation` fields using the existing blog conventions.
+
+## Writing Style
+
+- Use a dry, factual tone. Avoid flowery language and embellishment.
+- Keep sentences short and concise.
+- Please remove all mannered prose.
